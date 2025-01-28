@@ -12,5 +12,5 @@ export default defineConfig({
     },
   },
   publicDir: "./src/assets",
-  base:'/site'
+  base:'/site/',
 });
