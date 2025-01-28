@@ -25,8 +25,8 @@ export const Experience = ({ paddingLateral }) => {
         "Docker",
       ],
       logo: "/images/coope.png",
-      width: paddingLateral == 25 ? 500 : 225,
-      height: 165,
+      width: paddingLateral == 25 ? 900 : 225,
+      height: 100,
       style: { filter: theme === "light" ? "invert(1)" : "" },
     },
     {
