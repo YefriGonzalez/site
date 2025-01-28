@@ -1,10 +1,8 @@
 import { lazy, Suspense, useState } from "react";
-import "primeflex/primeflex.css";
 import { ThemeContext } from "./Contexts/theme-context";
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import ThemeApp from "./assets/StylesMui";
+import ThemeApp from "./Material/StylesMui";
 import { Route, Routes } from "react-router-dom";
-// import AppLayout from "./components/Layout/AppLayout";
 import LoadingPage from "./Pages/NotProtected/LoadingPage";
 import { dashboardRoutes } from "@routes";
 const Home = lazy(() => import("./Pages/NotProtected/Home"));
