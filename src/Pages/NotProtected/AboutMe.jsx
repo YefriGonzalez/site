@@ -80,7 +80,7 @@ const AboutMe = () => {
             he trabajado? Consulta mi currículum o conéctate conmigo en
             LinkedIn.
           </Typography>
-          <img src="/firma2.png" style={{width:'20rem',height:'12rem'}} />
+          <img src="/site/firma2.png" style={{width:'20rem',height:'12rem'}} />
         </Box>
 
        

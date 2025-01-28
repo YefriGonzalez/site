@@ -1,9 +1,10 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import path, { dirname } from "path";
+import path from "path";
 
 export default defineConfig({
   plugins: [react()],
+   base: "/site/",
   resolve: {
     alias: {
       "@components": path.resolve(__dirname, "src/Components/index"),
@@ -12,5 +13,4 @@ export default defineConfig({
     },
   },
   publicDir: "./src/assets",
-  base:'/site/'
 });

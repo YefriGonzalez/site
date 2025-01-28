@@ -31,7 +31,7 @@ function App() {
           <ThemeProvider theme={ThemeApp(theme)}>
             <Suspense fallback={<LoadingPage />}>
               <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/site/" element={<Home />} />
                 {dashboardRoutes()}
                 <Route path="*" element={<NotFound />} />
               </Routes>

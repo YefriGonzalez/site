@@ -3,15 +3,15 @@ import { Route } from "react-router";
 
 const routes = [
   {
-    path: "/contact",
+    path: "/site/contact",
     element: lazy(() => import("../Pages/NotProtected/Contact")),
   },
   {
-    path: "/aboutme",
+    path: "/site/aboutme",
     element: lazy(() => import("../Pages/NotProtected/AboutMe")),
   },
   {
-    path: "/stack",
+    path: "/site/stack",
     element: lazy(() => import("../Pages/NotProtected/Stack")),
   },
 ];

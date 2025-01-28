@@ -24,7 +24,7 @@ export const Experience = ({ paddingLateral }) => {
         "SQL Server",
         "Docker",
       ],
-      logo: "/images/coope.png",
+      logo: "/site/images/coope.png",
       width: paddingLateral == 25 ? 900 : 225,
       height: 100,
       style: { filter: theme === "light" ? "invert(1)" : "" },
@@ -36,7 +36,7 @@ export const Experience = ({ paddingLateral }) => {
       description:
         "Diseño y desarrollo de aplicaciones web utilizando Angular y Laravel.",
       technologies: ["Angular", "Laravel", "MySQL", "Docker"],
-      logo: "/images/sigel.png",
+      logo: "/site/images/sigel.png",
       width: paddingLateral == 25 ? 500 : 200,
       height: 350,
       style: { filter: theme === "dark" ? "invert(1) grayscale(1)" : "" },

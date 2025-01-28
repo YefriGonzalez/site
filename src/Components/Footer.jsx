@@ -7,7 +7,7 @@ export const Footer = ({ paddingLateral, viewContact = true }) => {
   return (
     <Box
       sx={{
-        backgroundImage: 'url("/images/Background_Gradient_footer.png")',
+        backgroundImage: 'url("/site/images/Background_Gradient_footer.png")',
         minHeight: "40vh",
         marginTop: 20,
         paddingBottom: 5,
@@ -96,7 +96,7 @@ export const Footer = ({ paddingLateral, viewContact = true }) => {
               <List>
                 <ListItem
                   sx={{ color: "primary.main", cursor: "pointer" }}
-                  onClick={() => navigate("/stack")}
+                  onClick={() => navigate("/site/stack")}
                 >
                   Tecnologias
                 </ListItem>

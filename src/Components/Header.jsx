@@ -39,16 +39,16 @@ export const Header = ({
   };
 
   const pages = [
-    { name: "Inicio", path: "/" },
-    { name: "Sobre mi", path: "/aboutme" },
-    { name: "Contacto", path: "/contact" },
-    { name: "Tecnologias", path: "/stack" },
+    { name: "Inicio", path: "/site/" },
+    { name: "Sobre mi", path: "/site/aboutme" },
+    { name: "Contacto", path: "/site/contact" },
+    { name: "Tecnologias", path: "/site/stack" },
   ];
 
   return (
     <Box
       sx={{
-        backgroundImage: 'url("/images/Background_Gradient.png")',
+        backgroundImage: 'url("/site/images/Background_Gradient.png")',
         backgroundSize: "cover",
         minHeight: "20vh",
         width: "100%",
@@ -210,7 +210,7 @@ export const Header = ({
             </Box>
             <Avatar
               alt="Tu Nombre"
-              src="/images/profile.jpg"
+              src="/site/images/profile.jpg"
               sx={{
                 width: 300,
                 height: 300,
