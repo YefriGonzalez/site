@@ -220,19 +220,19 @@ const Stack = () => {
                   sx={{
                     padding: 2,
                     width: {
-                      lg: "30%",
-                      xl: "30%",
-                      md: "48%",
+                      lg: "22%",
+                      xl: "22%",
+                      md: "30%",
                       sm: "100%",
                       xs: "100%",
                     },
                     display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
-                    gap: 2,
+                    gap: 2,   
                   }}
                 >
-                  <img src={item.icon} height={200} width={200} />
+                  <img src={item.icon} height={150} width={150} />
                   <Typography fontWeight={"bold"}>{item.name}</Typography>
                 </Card>
               );
@@ -264,9 +264,9 @@ const Stack = () => {
                   sx={{
                     padding: 2,
                     width: {
-                      lg: "30%",
-                      xl: "30%",
-                      md: "48%",
+                      lg: "22%",
+                      xl: "22%",
+                      md: "30%",
                       sm: "100%",
                       xs: "100%",
                     },
@@ -276,7 +276,7 @@ const Stack = () => {
                     gap: 2,
                   }}
                 >
-                  <img src={item.icon} height={200} width={200} />
+                  <img src={item.icon} height={150} width={150} />
                   <Typography fontWeight={"bold"}>{item.name}</Typography>
                 </Card>
               );
@@ -308,9 +308,9 @@ const Stack = () => {
                   sx={{
                     padding: 2,
                     width: {
-                      lg: "30%",
-                      xl: "30%",
-                      md: "48%",
+                      lg: "22%",
+                      xl: "22%",
+                      md: "30%",
                       sm: "100%",
                       xs: "100%",
                     },
@@ -320,7 +320,7 @@ const Stack = () => {
                     gap: 2,
                   }}
                 >
-                  <img src={item.icon} height={200} width={200} />
+                  <img src={item.icon} height={150} width={150} />
                   <Typography fontWeight={"bold"}>{item.name}</Typography>
                 </Card>
               );

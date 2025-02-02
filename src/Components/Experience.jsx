@@ -26,7 +26,7 @@ export const Experience = ({ paddingLateral }) => {
       ],
       logo: "/site/images/coope.png",
       width: paddingLateral == 25 ? 900 : 225,
-      height: 100,
+      height: 90,
       style: { filter: theme === "light" ? "invert(1)" : "" },
     },
     {
@@ -38,7 +38,7 @@ export const Experience = ({ paddingLateral }) => {
       technologies: ["Angular", "Laravel", "MySQL", "Docker"],
       logo: "/site/images/sigel.png",
       width: paddingLateral == 25 ? 500 : 200,
-      height: 350,
+      height: 325,
       style: { filter: theme === "dark" ? "invert(1) grayscale(1)" : "" },
     },
   ];
@@ -57,11 +57,13 @@ export const Experience = ({ paddingLateral }) => {
       >
         Experiencia laboral
       </Typography>
-      <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
-        {experiences?.map((sub) => {
+      <Box
+        sx={{ display: "flex", flexDirection: "column", gap: 2, marginTop: 2 }}
+      >
+        {experiences?.map((sub, index) => {
           return (
             <Card
-              key={sub.id}
+              key={index}
               sx={{
                 padding: 8,
                 borderRadius: 3,

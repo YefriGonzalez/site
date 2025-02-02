@@ -113,7 +113,7 @@ export const Header = ({
             >
               {pages.map((page) => (
                 <MenuItem
-                  key={page}
+                  key={page.name}
                   onClick={() => {
                     navigate(page.path);
                     handleCloseNavMenu;

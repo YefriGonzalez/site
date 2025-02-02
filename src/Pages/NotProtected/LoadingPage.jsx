@@ -2,7 +2,7 @@
 const LoadingPage = () => {
     return (
       <>
-        <div className="fixed-background-loading" />
+        {/* <div className="fixed-background-loading" />
         <main>
           <div className="container container-loading loading-page">
             <div className="row h-100">
@@ -12,7 +12,7 @@ const LoadingPage = () => {
               </div>
             </div>
           </div>
-        </main>
+        </main> */}
       </>
     );
   };
