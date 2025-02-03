@@ -1,6 +1,5 @@
 import axios from "axios";
 
-// const apiUrl = "https://website-backend-production-bf07.up.railway.app/";
 const apiUrl="http://localhost:8000/"
 const DefaultHeaders = {
   Accept: "application/json",
